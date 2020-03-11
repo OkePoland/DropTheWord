@@ -6,6 +6,10 @@
 npm install droptheword
 ```
 
+## Demo
+
+https://pedantic-benz-27df81.netlify.com/
+
 ## Usage
 
 ```javascript
@@ -14,7 +18,7 @@ import { replaceSpacesInString, replaceSpacesInCssSelector } from "droptheword";
 
 #### Usage with strings
 
-###### Function will transform provided string to string with "hard spaces" after a word you provide.
+###### Function will transform provided string to string with "hard spaces" after each word provided in an array.
 
 ```javascript
 const myOldString =

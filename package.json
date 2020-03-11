@@ -1,6 +1,6 @@
 {
   "name": "droptheword",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Avoid leaving conjunctions alone. Make your website look even better with DropTheWord! Go to https://github.com/OkePoland/DropTheWord#readme for more information",
   "main": "index.js",
   "repository": {
@@ -12,7 +12,7 @@
   "bugs": {
     "url": "https://github.com/OkePoland/DropTheWord/issues"
   },
-  "homepage": "https://github.com/OkePoland/DropTheWord#readme",
+  "homepage": "https://pedantic-benz-27df81.netlify.com/",
   "dependencies": {
     "typescript": "^3.8.3"
   }

@@ -1,6 +1,6 @@
 {
   "name": "droptheword",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Avoid leaving conjunctions alone. Make your website look even better with DropTheWord! Go to https://github.com/OkePoland/DropTheWord#readme for more information",
   "main": "index.js",
   "repository": {

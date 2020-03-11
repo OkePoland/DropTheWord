@@ -1,0 +1,22 @@
+{
+  "name": "droptheword",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OkePoland/DropTheWord.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OkePoland/DropTheWord/issues"
+  },
+  "homepage": "https://github.com/OkePoland/DropTheWord#readme",
+  "dependencies": {
+    "typescript": "^3.8.3"
+  }
+}

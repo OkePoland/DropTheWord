@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DropTheWord</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <div class="navbar">
+        <div class="navbar__firstColumn">
+          <span class="navbar__logo">DropTheWord</span>
+          <span class="navbar__icon--wrapper"
+            ><a
+              href="https://www.github.com/OkePoland/DropTheWord"
+              target="_blank"
+            >
+              <img
+                class="navbar__icon"
+                src="./icons/github.svg"
+                alt="github"
+              /> </a
+          ></span>
+          <span class="navbar__icon--wrapper"
+            ><a
+              href="https://www.npmjs.com/package/droptheword"
+              target="_blank"
+            >
+              <img class="nav__icon" src="./icons/npm.svg" alt="npm" /> </a
+          ></span>
+          <i class="fab fa-npm"></i>
+        </div>
+        <div class="navbar__secondColumn">
+          <a
+            href="https://www.npmjs.com/package/droptheword#usage"
+            target="_blank"
+            class="navbar__secondColumn__usage"
+            >Usage</a
+          >
+        </div>
+      </div>
+
+      <h1 class="header">
+        Don't leave your conjunctions alone!<br />With DropTheWord you can make
+        your website more readable.<br />It works with strings and css
+        selectors.
+      </h1>
+
+      <div class="demo">
+        <div class="wordList--wrapper">
+          <div class="wordList__form greyBorder">
+            <div class="wordList__input--wrapper">
+              <input
+                type="text"
+                class="wordList__input greyBorder--small"
+                data-form="word-input"
+                value=""
+                placeholder="Add word / conjuntive"
+              />
+              <button
+                class="wordList__button greyBorder--small"
+                data-form="addButton"
+                type="button"
+              >
+                Enter
+              </button>
+            </div>
+            <div class="wordList__wordsBox" data-form="wordBox"></div>
+            <p class="wordList__deleteInfo">
+              * click on word to delete it
+            </p>
+          </div>
+          <div class="userContentInput--wrapper greyBorder ">
+            <textarea
+              class="userContentInput "
+              placeholder="Type your text"
+              data-form="user-content"
+            ></textarea>
+          </div>
+        </div>
+        <div class="button_run--wrapper">
+          <button class="button_run greyBorder--small" data-form="runButton">
+            Run
+          </button>
+        </div>
+        <div class="userContentOutput--wrapper">
+          <textarea
+            readonly
+            class="userContentOutput greyBorder"
+            placeholder="Your output"
+            data-form="user-output"
+          ></textarea>
+          <h2 class="userContentOutput__desc">
+            Resize the container to see it's magic
+          </h2>
+        </div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
